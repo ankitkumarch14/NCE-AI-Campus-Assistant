@@ -1,0 +1,16 @@
+{
+  "college": {
+    "name": "Nalanda College of Engineering",
+    "short_name": "NCE",
+    "location": "Chandi, Nalanda, Bihar",
+    "website": "",
+    "email": "",
+    "phone": ""
+  },
+  "branches": [],
+  "hostel": {},
+  "library": {},
+  "placement": {},
+  "admission": {},
+  "faq": {}
+}

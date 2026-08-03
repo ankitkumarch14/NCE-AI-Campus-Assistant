@@ -1,16 +1,83 @@
 {
-  "college": {
-    "name": "Nalanda College of Engineering",
-    "short_name": "NCE",
-    "location": "Chandi, Nalanda, Bihar",
-    "website": "",
-    "email": "",
-    "phone": ""
+  "college_name": "Nalanda College of Engineering, Chandi",
+  "short_name": "NCE Chandi",
+  "established": "2008",
+  "affiliated_to": "Bihar Engineering University (BEU)",
+  "approved_by": "AICTE",
+  "principal": "Dr. Gopal Nandan",
+
+  "address": {
+    "district": "Nalanda",
+    "state": "Bihar",
+    "pincode": "803108"
   },
-  "branches": [],
-  "hostel": {},
-  "library": {},
-  "placement": {},
-  "admission": {},
-  "faq": {}
+
+  "website": "https://ncechandi.ac.in",
+  "email": "nceprincipalchandi@gmail.com",
+
+  "courses": [
+    "B.Tech",
+    "M.Tech"
+  ],
+
+  "departments": [
+    "Artificial Intelligence & Machine Learning (AI & ML)",
+    "Computer Science & Engineering (CSE)",
+    "Civil Engineering",
+    "Mechanical Engineering",
+    "Aeronautical Engineering",
+    "Electrical & Electronics Engineering (EEE)"
+  ],
+
+  "admission": {
+    "process": "Admission is through JEE Main or BCECE counselling.",
+    "eligibility": "Candidates must have passed Class 12 with Physics, Chemistry and Mathematics."
+  },
+
+  "hostel": {
+    "available": "Yes",
+    "total": 4,
+    "boys": 2,
+    "girls": 2
+  },
+
+  "library": {
+    "available": "Yes",
+    "wifi": "Yes",
+    "computers": "Yes"
+  },
+
+  "laboratories": {
+    "available": "Yes"
+  },
+
+  "facilities": [
+    "Smart Classrooms",
+    "Central Library",
+    "Computer Labs",
+    "Engineering Labs",
+    "Wi-Fi Campus",
+    "Boys Hostel",
+    "Girls Hostel"
+  ],
+
+  "faq": {
+    "what is the college name": "The college name is Nalanda College of Engineering, Chandi.",
+    "where is the college located": "Nalanda College of Engineering is located in Chandi, Nalanda, Bihar - 803108.",
+    "when was the college established": "Nalanda College of Engineering was established in 2008.",
+    "who is the principal": "The Principal of Nalanda College of Engineering is Dr. Gopal Nandan.",
+    "which university is the college affiliated to": "The college is affiliated with Bihar Engineering University (BEU).",
+    "is the college approved by aicte": "Yes, Nalanda College of Engineering is approved by AICTE.",
+    "what courses are offered": "The college offers B.Tech and M.Tech programmes.",
+    "what departments are available": "AI & ML, CSE, Civil Engineering, Mechanical Engineering, Aeronautical Engineering and EEE departments are available.",
+    "what is the admission process": "Admission is through JEE Main or BCECE counselling.",
+    "what is the eligibility": "Students must have passed Class 12 with Physics, Chemistry and Mathematics.",
+    "is hostel available": "Yes. The college has 4 hostels: 2 for boys and 2 for girls.",
+    "how many hostels are there": "There are 4 hostels in the college: 2 boys hostels and 2 girls hostels.",
+    "does the college have a library": "Yes. The college has a central library with Wi-Fi and computers.",
+    "is wifi available": "Yes. Wi-Fi is available in the library and on the campus.",
+    "does the college have computer labs": "Yes. The college has well-equipped computer laboratories.",
+    "does the college have laboratories": "Yes. The college has laboratories for different engineering departments.",
+    "what is the official email": "The official email is nceprincipalchandi@gmail.com."
+  }
 }

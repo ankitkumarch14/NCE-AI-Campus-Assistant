@@ -26,6 +26,31 @@ st.write("Ask anything about the college.")
 # College Name
 st.success("🏫 " + college_data["college_name"])
 
+# Quick Information
+st.markdown("---")
+st.subheader("📊 Quick Facts")
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.info("🏛 Established\n\n2008")
+
+with col2:
+    st.info("🎓 Courses\n\nB.Tech | M.Tech")
+
+with col3:
+    st.info("🏫 Departments\n\n6+")
+    col4, col5, col6 = st.columns(3)
+
+with col4:
+    st.info("🏠 Hostels\n\n4")
+
+with col5:
+    st.info("📚 Library\n\nWi-Fi & Computers")
+
+with col6:
+    st.info("🧪 Engineering Labs\n\nAvailable")
+
 # Search Box
 question = st.text_input("🔍 Ask your question")
 

@@ -19,11 +19,16 @@ st.write("### Welcome to Nalanda College of Engineering AI Assistant")
 st.write("Ask anything about the college.")
 
 # Show college name
-st.success("College Name: " + college_data["college"]["name"])
+st.success("College Name: " + college_data["college_name"])
 
 # User input
 user_question = st.text_input("Ask your question")
 
 # Button
 if st.button("Ask"):
-    st.write("You asked:", user_question)
+    question = user_question.lower().strip()
+
+    if question in college_data["faq"]:
+        st.success(college_data["faq"][question])
+    else:
+        st.error("Sorry, I don't know the answer to this question yet.")

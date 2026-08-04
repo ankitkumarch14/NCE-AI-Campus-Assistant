@@ -12,23 +12,28 @@ st.set_page_config(
     layout="wide"
 )
 
-# Title
+# Sidebar
+st.sidebar.title("🎓 NCE AI Assistant")
+st.sidebar.success("Nalanda College of Engineering, Chandi")
+st.sidebar.info("AI-powered College Information System")
+
+# Main Title
 st.title("🎓 NCE AI Campus Assistant")
 
-st.write("### Welcome to Nalanda College of Engineering AI Assistant")
+st.markdown("## Welcome to Nalanda College of Engineering, Chandi")
 st.write("Ask anything about the college.")
 
-# Show college name
-st.success("College Name: " + college_data["college_name"])
+# College Name
+st.success("🏫 " + college_data["college_name"])
 
-# User input
-user_question = st.text_input("Ask your question")
+# Search Box
+question = st.text_input("🔍 Ask your question")
 
-# Button
+# Ask Button
 if st.button("Ask"):
-    question = user_question.lower().strip()
+    q = question.lower().strip()
 
-    if question in college_data["faq"]:
-        st.success(college_data["faq"][question])
+    if q in college_data["faq"]:
+        st.success(college_data["faq"][q])
     else:
-        st.error("Sorry, I don't know the answer to this question yet.")
+        st.error("❌ Sorry! I don't know the answer to this question yet.")

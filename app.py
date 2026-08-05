@@ -21,26 +21,19 @@ st.title("🎓 Nalanda College of Engineering, Chandi")
 st.markdown("### 🤖 NCE AI Campus Assistant")
 
 # Hero Image
-campus_images = [
-    "campus1.jpg",
-    "campus2.jpg",
-    "campus3.jpg",
-    "campus4.jpg",
-    "campus5.jpg",
-    "campus6.jpg",
-    "campus7.jpg"
-]
-
 st.subheader("🏫 NCE Campus Gallery")
 
-selected = st.select_slider(
-    "View Campus Photos",
-    options=range(1, 8),
-    value=1,
-    format_func=lambda x: f"Photo {x}"
+image_carousel(
+    images=[
+        "campus1.jpg",
+        "campus2.jpg",
+        "campus3.jpg",
+        "campus4.jpg",
+        "campus5.jpg",
+        "campus6.jpg",
+        "campus7.jpg"
+    ]
 )
-
-st.image(campus_images[selected - 1], use_container_width=True)
 
 st.markdown("---")
 

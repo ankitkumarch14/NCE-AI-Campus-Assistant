@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="NCE Home", page_icon="🏫", layout="wide")
 
 # Logo
-st.image("logo.jpg", width=120)
+st.image("../logo.jpg", width=120)
 
 # Title
 st.title("🎓 Nalanda College of Engineering, Chandi")
@@ -11,7 +11,7 @@ st.title("🎓 Nalanda College of Engineering, Chandi")
 st.markdown("### Welcome to NCE AI Campus Assistant")
 
 # Hero Banner
-st.image("images/campus1.jpg", use_container_width=True)
+st.image("../image/campus1.jpg", use_container_width=True)
 
 st.markdown("---")
 

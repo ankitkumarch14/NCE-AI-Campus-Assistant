@@ -1,64 +1,59 @@
 import streamlit as st
 import json
 
-# Load college data
-with open("college_data.json", "r") as file:
-    college_data = json.load(file)
-
-# Page settings
 st.set_page_config(
     page_title="NCE AI Campus Assistant",
     page_icon="🎓",
     layout="wide"
 )
 
-# Sidebar
-st.sidebar.title("🎓 NCE AI Assistant")
-st.sidebar.success("Nalanda College of Engineering, Chandi")
-st.sidebar.info("AI-powered College Information System")
+# Load Data
+with open("college_data.json", "r") as file:
+    college_data = json.load(file)
 
-# Main Title
-st.title("🎓 NCE AI Campus Assistant")
+# Logo
+st.image("logo.jpg", width=120)
 
-st.markdown("## Welcome to Nalanda College of Engineering, Chandi")
-st.write("Ask anything about the college.")
+# Title
+st.title("🎓 Nalanda College of Engineering, Chandi")
 
-# College Name
-st.success("🏫 " + college_data["college_name"])
+st.markdown("### 🤖 NCE AI Campus Assistant")
 
-# Quick Information
+# Hero Image
+st.image("image/campus1.jpg", use_container_width=True)
+
 st.markdown("---")
-st.subheader("📊 Quick Facts")
 
-col1, col2, col3 = st.columns(3)
+# Quick Facts
+col1, col2, col3, col4 = st.columns(4)
 
-with col1:
-    st.info("🏛 Established\n\n2008")
+col1.metric("🏛 Established", "2008")
+col2.metric("🎓 Courses", "B.Tech | M.Tech")
+col3.metric("🏨 Hostels", "4")
+col4.metric("🏫 Departments", "6+")
 
-with col2:
-    st.info("🎓 Courses\n\nB.Tech | M.Tech")
+st.markdown("---")
 
-with col3:
-    st.info("🏫 Departments\n\n6+")
-    col4, col5, col6 = st.columns(3)
+st.subheader("📖 About College")
 
-with col4:
-    st.info("🏠 Hostels\n\n4")
+st.write("""
+Nalanda College of Engineering (NCE), Chandi is one of the premier government engineering colleges of Bihar.
 
-with col5:
-    st.info("📚 Library\n\nWi-Fi & Computers")
+It is approved by AICTE and affiliated to Bihar Engineering University (BEU).
 
-with col6:
-    st.info("🧪 Engineering Labs\n\nAvailable")
+The college offers quality technical education with modern laboratories, smart classrooms, central library, Wi-Fi campus, hostels and experienced faculty.
+""")
 
-# Search Box
-question = st.text_input("🔍 Ask your question")
+st.markdown("---")
 
-# Ask Button
-if st.button("Ask"):
+st.subheader("🤖 Ask NCE AI")
+
+question = st.text_input("Ask anything about NCE")
+
+if st.button("Search"):
     q = question.lower().strip()
 
     if q in college_data["faq"]:
         st.success(college_data["faq"][q])
     else:
-        st.error("❌ Sorry! I don't know the answer to this question yet.")
+        st.warning("Sorry! Answer not available yet.")

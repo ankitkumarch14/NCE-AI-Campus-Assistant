@@ -20,7 +20,7 @@ st.title("🎓 Nalanda College of Engineering, Chandi")
 st.markdown("### 🤖 NCE AI Campus Assistant")
 
 # Hero Image
-st.image("image/campus1.jpg", use_container_width=True)
+st.image("campus1.jpg", use_container_width=True)
 
 st.markdown("---")
 

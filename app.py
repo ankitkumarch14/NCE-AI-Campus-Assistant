@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_image_carousel import image_carousel
 import json
 
 st.set_page_config(
@@ -21,19 +20,6 @@ st.title("🎓 Nalanda College of Engineering, Chandi")
 st.markdown("### 🤖 NCE AI Campus Assistant")
 
 # Hero Image
-st.subheader("🏫 NCE Campus Gallery")
-
-image_carousel(
-    images=[
-        "campus1.jpg",
-        "campus2.jpg",
-        "campus3.jpg",
-        "campus4.jpg",
-        "campus5.jpg",
-        "campus6.jpg",
-        "campus7.jpg"
-    ]
-)
 
 st.markdown("---")
 

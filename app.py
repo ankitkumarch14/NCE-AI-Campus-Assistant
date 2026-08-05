@@ -101,6 +101,35 @@ with c7:
 
 with c8:
     st.button("📞 Contact")
+    st.markdown("## 🚀 Quick Navigation")
+
+col1, col2, col3, col4 = st.columns(4)
+
+with col1:
+    st.button("🏫 About")
+
+with col2:
+    st.button("🏢 Departments")
+
+with col3:
+    st.button("💼 Placement")
+
+with col4:
+    st.button("🤖 Ask AI")
+
+col5, col6, col7, col8 = st.columns(4)
+
+with col5:
+    st.button("🏨 Hostel")
+
+with col6:
+    st.button("📚 Library")
+
+with col7:
+    st.button("👨‍🏫 Faculty")
+
+with col8:
+    st.button("📞 Contact")
 
 # Quick Facts
 col1, col2, col3, col4 = st.columns(4)

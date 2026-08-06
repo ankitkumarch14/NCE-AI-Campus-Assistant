@@ -105,7 +105,7 @@ AI Powered College Information System
 # -----------------------------
 # HERO IMAGE
 # -----------------------------
-st.image("images/campus1.jpg",use_container_width=True)
+st.image("campus1.jpg", use_container_width=True)
 
 st.markdown("")
 
@@ -381,14 +381,13 @@ st.subheader("📸 Campus Gallery")
 g1,g2=st.columns(2)
 
 with g1:
-    st.image("images/campus2.jpg",use_container_width=True)
-    st.image("images/campus3.jpg",use_container_width=True)
-    st.image("images/campus4.jpg",use_container_width=True)
-
+st.image("campus2.jpg", use_container_width=True)
+st.image("campus3.jpg", use_container_width=True)
+st.image("campus4.jpg", use_container_width=True)
 with g2:
-    st.image("images/campus5.jpg",use_container_width=True)
-    st.image("images/campus6.jpg",use_container_width=True)
-    st.image("images/campus7.jpg",use_container_width=True)
+st.image("campus5.jpg", use_container_width=True)
+st.image("campus6.jpg", use_container_width=True)
+st.image("campus7.jpg", use_container_width=True)
 
 st.divider()
 

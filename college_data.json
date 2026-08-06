@@ -1,0 +1,106 @@
+{
+  "college_name": "Nalanda College of Engineering, Chandi",
+  "short_name": "NCE",
+  "established": "2008",
+  "type": "Government Engineering College",
+  "approved_by": "AICTE",
+  "affiliated_to": "Bihar Engineering University (BEU)",
+  "location": "Chandi, Nalanda, Bihar",
+  "website": "https://ncechandi.ac.in/",
+
+  "faq": {
+
+    "college": "Nalanda College of Engineering (NCE), Chandi is a Government Engineering College established in 2008. It is approved by AICTE and affiliated with Bihar Engineering University (BEU).",
+
+    "about": "Nalanda College of Engineering provides quality technical education with experienced faculty, modern laboratories, library, hostels and Wi-Fi campus.",
+
+    "admission": "B.Tech admission is through UGEAC counselling based on JEE Main rank. M.Tech admission follows the postgraduate admission process.",
+
+    "btech": "B.Tech admission is through UGEAC counselling after qualifying JEE Main.",
+
+    "mtech": "M.Tech admission is based on the postgraduate admission process as per institute rules.",
+
+    "fees": "Fee details are available in the official admission brochure. Students should refer to the latest admission notification.",
+
+    "hostel": "Separate hostel facilities are available for boys and girls.",
+
+    "library": "The college has a central library with academic books, journals and digital resources.",
+
+    "wifi": "Wi-Fi facility is available on campus.",
+
+    "placement": "The Training & Placement Cell organizes internships, training programs and campus recruitment.",
+
+    "principal": "Please refer to the official NCE website for the latest Principal information.",
+
+    "director": "Please refer to the official NCE website for the latest Director information.",
+
+    "contact": "Visit https://ncechandi.ac.in/ for official contact details.",
+
+    "website": "Official Website: https://ncechandi.ac.in/"
+    
+    ,
+    "departments": "The college offers B.Tech programmes in Computer Science & Engineering, Artificial Intelligence & Machine Learning, Civil Engineering, Mechanical Engineering, Electrical Engineering and Electronics & Communication Engineering.",
+
+    "cse": "Computer Science & Engineering department provides programming, software development, database, networking and project-based learning.",
+
+    "ai ml": "Artificial Intelligence & Machine Learning department focuses on Artificial Intelligence, Machine Learning, Deep Learning, Data Science and Python programming.",
+
+    "civil": "Civil Engineering department provides education in structural engineering, transportation, surveying and environmental engineering.",
+
+    "mechanical": "Mechanical Engineering department covers manufacturing, thermal engineering, CAD/CAM and industrial engineering.",
+
+    "electrical": "Electrical Engineering department focuses on power systems, electrical machines, control systems and electrical laboratories.",
+
+    "ece": "Electronics & Communication Engineering department teaches digital electronics, communication systems, embedded systems and VLSI basics.",
+
+    "lab": "Modern laboratories are available in all engineering departments for practical learning.",
+
+    "sports": "The campus provides sports and extracurricular activity facilities for students.",
+
+    "canteen": "Canteen facilities are available inside the college campus.",
+
+    "transport": "Students should check the official website for transport-related information.",
+
+    "scholarship": "Eligible students can apply for scholarships as per Bihar Government and institute guidelines.",
+
+    "training": "The Training and Placement Cell conducts aptitude training, technical sessions, mock interviews and career guidance.",
+
+    "internship": "Students are encouraged to participate in internships through the Training and Placement Cell.",
+
+    "gallery": "Campus photographs and event images are available in the Gallery section of this application.",
+
+    "address": "Nalanda College of Engineering, Chandi, Nalanda, Bihar.",
+
+    "location": "The college is located at Chandi in Nalanda district of Bihar.",
+
+    "hello": "Hello 👋 Welcome to NCE AI Campus Assistant. How can I help you today?",
+
+    "hi": "Hi 👋 Ask me anything about Nalanda College of Engineering.",
+
+    "thanks": "You're welcome! Have a great day."
+    
+    ,
+    "admission process": "Admission details are available in the B.Tech and M.Tech Admission sections of this application.",
+
+    "btech admission": "B.Tech admission is conducted through UGEAC counselling based on JEE(Main) rank.",
+
+    "mtech admission": "M.Tech admission follows the institute's postgraduate admission process.",
+
+    "placement cell": "The Training & Placement Cell supports internships, aptitude training, technical skill development and campus recruitment.",
+
+    "facilities": "The college provides classrooms, laboratories, library, hostels, sports facilities, Wi-Fi campus and computer labs.",
+
+    "vision": "Please refer to the official college documents for the Vision statement.",
+
+    "mission": "Please refer to the official college documents for the Mission statement.",
+
+    "courses": "NCE offers B.Tech and M.Tech programmes in various engineering disciplines.",
+
+    "beu": "Nalanda College of Engineering is affiliated with Bihar Engineering University (BEU), Patna.",
+
+    "aicte": "Nalanda College of Engineering is approved by AICTE.",
+
+    "bye": "Thank you for using NCE AI Campus Assistant. Have a nice day! 😊"
+
+  }
+}
